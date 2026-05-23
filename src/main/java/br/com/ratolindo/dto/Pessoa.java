@@ -10,6 +10,7 @@ public class Pessoa {
     private String nome;
     private String email;
     private String cpf;
+    private String telefone;
 
     public Pessoa() {}
 
@@ -50,4 +51,10 @@ public class Pessoa {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+
+    public String getTelefone() {return telefone;}
+
+    public void setTelefone(String telefone) { this.telefone = telefone;}
+
+
 }
